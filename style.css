@@ -6,7 +6,6 @@
 
 .leftside{
     background: #F8F8F8;
-    border-right: 8px solid Gainsboro;
 }
 
 @media screen and (min-width:1000px)
@@ -17,7 +16,7 @@
 }
 
 .rightside{
-    background:url('images/bg_1.jpg') center center no-repeat;
+    background:url('images/background.png') center center no-repeat;
     background-size:cover;
     z-index: -2;
     opacity: 0.4;
@@ -26,7 +25,7 @@
 .intro {
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -45,4 +44,9 @@
 
 p {
     text-indent:30px;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 0;
 }
