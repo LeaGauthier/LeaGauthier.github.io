@@ -1,4 +1,4 @@
-.leftside, .rightside{
+.leftside, .rightside, .rightside2 {
     height:100vh;
     width:100%;
     font-size: large;
@@ -22,6 +22,14 @@
     z-index: -2;
     opacity: 0.5;
 }
+
+.rightside2{
+    background:url('images/bkg2.jpg') center center no-repeat;
+    background-size:cover;
+    z-index: -2;
+    opacity: 0.5;
+}
+
 
 .element {
     position: absolute;
